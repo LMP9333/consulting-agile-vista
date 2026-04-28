@@ -6,47 +6,50 @@
 
 @layer base {
   :root {
-    /* Brand: deep navy + warm gold + cream */
-    --background: 38 33% 96%;
-    --foreground: 215 50% 12%;
+    /* Brand: warm nudes + whites */
+    --background: 36 30% 97%;
+    --foreground: 25 18% 20%;
 
-    --card: 38 33% 98%;
-    --card-foreground: 215 50% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 25 18% 20%;
 
-    --popover: 38 33% 98%;
-    --popover-foreground: 215 50% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 18% 20%;
 
-    --primary: 215 55% 14%;
-    --primary-foreground: 38 33% 96%;
+    --primary: 25 22% 28%;
+    --primary-foreground: 36 30% 97%;
 
-    --secondary: 38 25% 90%;
-    --secondary-foreground: 215 50% 14%;
+    --secondary: 30 25% 90%;
+    --secondary-foreground: 25 22% 24%;
 
-    --muted: 38 20% 92%;
-    --muted-foreground: 215 15% 38%;
+    --muted: 32 22% 93%;
+    --muted-foreground: 25 12% 42%;
 
-    --accent: 36 70% 52%;
-    --accent-foreground: 215 55% 12%;
+    --accent: 24 35% 62%;
+    --accent-foreground: 25 22% 18%;
 
-    --gold: 36 70% 52%;
-    --gold-soft: 38 60% 70%;
-    --ink: 215 55% 14%;
-    --ink-deep: 215 60% 9%;
-    --cream: 38 33% 96%;
+    /* Nude palette tokens */
+    --gold: 22 38% 55%;          /* warm tan accent */
+    --gold-soft: 28 45% 78%;     /* soft blush nude */
+    --ink: 25 22% 26%;            /* deep mocha (replaces navy) */
+    --ink-deep: 25 25% 18%;       /* darkest espresso-nude */
+    --cream: 36 32% 97%;          /* warm white */
+    --sand: 30 28% 88%;           /* light sand */
+    --blush: 22 40% 85%;          /* soft blush */
 
-    --destructive: 0 70% 45%;
-    --destructive-foreground: 38 33% 96%;
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 36 30% 97%;
 
-    --border: 215 20% 85%;
-    --input: 215 20% 85%;
-    --ring: 36 70% 52%;
+    --border: 28 18% 86%;
+    --input: 28 18% 86%;
+    --ring: 22 38% 55%;
 
     --radius: 0.25rem;
 
-    --gradient-hero: linear-gradient(135deg, hsl(215 60% 9%) 0%, hsl(215 55% 14%) 60%, hsl(215 50% 20%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(36 75% 58%), hsl(32 65% 45%));
-    --shadow-elegant: 0 30px 80px -20px hsl(215 60% 9% / 0.25);
-    --shadow-soft: 0 10px 40px -10px hsl(215 60% 9% / 0.12);
+    --gradient-hero: linear-gradient(135deg, hsl(28 35% 92%) 0%, hsl(30 30% 88%) 50%, hsl(24 32% 80%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(24 42% 62%), hsl(20 38% 50%));
+    --shadow-elegant: 0 30px 80px -20px hsl(25 25% 30% / 0.18);
+    --shadow-soft: 0 10px 40px -10px hsl(25 25% 30% / 0.10);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

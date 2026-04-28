@@ -13,7 +13,7 @@ const Independence = () => {
           </p>
           <div className="mt-12 flex items-center gap-4">
             <div className="h-px flex-1 bg-[hsl(var(--cream))]/20" />
-            <span className="text-xs uppercase tracking-[0.3em] text-[hsl(var(--cream))]/60">The Meridian Principle</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-[hsl(var(--cream))]/60">The AL Advisory Principle</span>
             <div className="h-px flex-1 bg-[hsl(var(--cream))]/20" />
           </div>
         </div>

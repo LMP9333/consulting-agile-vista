@@ -3,7 +3,7 @@ const Nav = () => {
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-6 lg:px-12 py-6 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <span className="font-serif text-2xl tracking-tight text-[hsl(var(--ink-deep))]">Meridian</span>
+          <span className="font-serif text-2xl tracking-tight text-[hsl(var(--ink-deep))]">AL</span>
           <span className="text-[hsl(var(--gold))] text-2xl font-serif leading-none">·</span>
           <span className="font-sans text-xs uppercase tracking-[0.25em] text-[hsl(var(--ink))]/70">Advisory</span>
         </a>

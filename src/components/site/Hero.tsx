@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="reveal flex items-center gap-3 mb-8">
             <span className="h-px w-10 bg-[hsl(var(--gold))]" />
             <span className="text-xs uppercase tracking-[0.3em] text-[hsl(var(--ink))]/70">
-              Independent · Vendor-Neutral · Since 2004
+              Independent · Vendor-Neutral · 20+ Years
             </span>
           </div>
 
@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
 
           <p className="reveal reveal-delay-2 text-lg md:text-xl text-[hsl(var(--ink))]/75 leading-relaxed max-w-2xl mb-12">
-            Two decades of system implementation and business analysis across industries — delivered through a software-agnostic methodology that adapts to any platform, on any scale.
+            Two decades of system implementation and business consulting across industries — delivered through a software-agnostic methodology that adapts to any platform, on any scale.
           </p>
 
           <div className="reveal reveal-delay-3 flex flex-wrap items-center gap-4">

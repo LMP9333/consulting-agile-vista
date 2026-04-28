@@ -5,7 +5,7 @@ const services = [
     items: ["Program leadership", "Solution design", "Data migration", "Cutover & hypercare"],
   },
   {
-    t: "Business Analysis",
+    t: "Business Consulting",
     d: "Translate strategy into requirements, processes, and decisions that engineering and vendors can actually build against.",
     items: ["Process mapping", "Requirements engineering", "Stakeholder facilitation", "Operating model design"],
   },

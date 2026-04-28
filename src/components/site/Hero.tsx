@@ -3,10 +3,10 @@ import hero from "@/assets/hero.jpg";
 const Hero = () => {
   return (
     <section id="top" className="relative min-h-screen bg-gradient-hero overflow-hidden">
-      <div className="absolute inset-0 opacity-40">
+      <div className="absolute inset-0 opacity-20 mix-blend-multiply">
         <img src={hero} alt="" width={1600} height={1200} className="w-full h-full object-cover" />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--ink-deep))] via-[hsl(var(--ink-deep))]/85 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--cream))] via-[hsl(var(--cream))]/70 to-transparent" />
 
       <div className="relative container mx-auto px-6 lg:px-12 pt-40 lg:pt-48 pb-24 lg:pb-32">
         <div className="max-w-3xl">

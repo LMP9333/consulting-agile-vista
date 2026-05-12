@@ -42,19 +42,6 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="reveal reveal-delay-3 mt-24 lg:mt-32 grid grid-cols-2 md:grid-cols-4 gap-px bg-[hsl(var(--ink))]/10 border border-[hsl(var(--ink))]/10">
-          {[
-            { k: "20+", v: "Years of practice" },
-            { k: "12", v: "Industries served" },
-            { k: "100%", v: "Software-agnostic" },
-            { k: "0", v: "Vendor incentives" },
-          ].map((s) => (
-            <div key={s.v} className="bg-[hsl(var(--cream))] p-6 lg:p-8">
-              <div className="font-serif text-4xl lg:text-5xl text-[hsl(var(--gold))] mb-2">{s.k}</div>
-              <div className="text-xs uppercase tracking-[0.18em] text-[hsl(var(--ink))]/60">{s.v}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

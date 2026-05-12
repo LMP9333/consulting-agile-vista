@@ -18,11 +18,7 @@ const Contact = () => {
             <div className="space-y-4 text-[hsl(var(--ink))]">
               <div>
                 <div className="text-xs uppercase tracking-[0.25em] text-[hsl(var(--ink))]/50 mb-1">Email</div>
-                <a href="mailto:hello@aladvisory.com" className="font-serif text-2xl hover:text-gold transition">hello@aladvisory.com</a>
-              </div>
-              <div>
-                <div className="text-xs uppercase tracking-[0.25em] text-[hsl(var(--ink))]/50 mb-1">Direct</div>
-                <a href="tel:+15555550123" className="font-serif text-2xl hover:text-gold transition">+1 (555) 555-0123</a>
+                <a href="mailto:info@aladvisory.co.za" className="font-serif text-2xl hover:text-gold transition">info@aladvisory.co.za</a>
               </div>
             </div>
           </div>

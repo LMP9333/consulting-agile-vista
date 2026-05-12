@@ -23,35 +23,22 @@ const Contact = () => {
             </div>
           </div>
 
-          <form
-            className="lg:col-span-6 bg-[hsl(var(--ink))] text-cream p-8 lg:p-12 shadow-elegant"
-            onSubmit={(e) => e.preventDefault()}
-          >
-            <div className="grid sm:grid-cols-2 gap-6 mb-6">
-              <label className="block">
-                <span className="text-xs uppercase tracking-[0.2em] text-[hsl(var(--cream))]/60">Name</span>
-                <input className="mt-2 w-full bg-transparent border-b border-[hsl(var(--cream))]/20 py-3 focus:border-gold outline-none transition" />
-              </label>
-              <label className="block">
-                <span className="text-xs uppercase tracking-[0.2em] text-[hsl(var(--cream))]/60">Company</span>
-                <input className="mt-2 w-full bg-transparent border-b border-[hsl(var(--cream))]/20 py-3 focus:border-gold outline-none transition" />
-              </label>
-            </div>
-            <label className="block mb-6">
-              <span className="text-xs uppercase tracking-[0.2em] text-[hsl(var(--cream))]/60">Email</span>
-              <input type="email" className="mt-2 w-full bg-transparent border-b border-[hsl(var(--cream))]/20 py-3 focus:border-gold outline-none transition" />
-            </label>
-            <label className="block mb-8">
-              <span className="text-xs uppercase tracking-[0.2em] text-[hsl(var(--cream))]/60">What are you working on?</span>
-              <textarea rows={4} className="mt-2 w-full bg-transparent border-b border-[hsl(var(--cream))]/20 py-3 focus:border-gold outline-none transition resize-none" />
-            </label>
-            <button
-              type="submit"
-              className="w-full bg-gradient-gold text-[hsl(var(--ink))] py-4 rounded-sm text-sm uppercase tracking-[0.25em] font-medium hover:opacity-90 transition"
+          <div className="lg:col-span-6 bg-[hsl(var(--ink))] text-cream p-8 lg:p-12 shadow-elegant flex flex-col justify-center">
+            <div className="text-xs uppercase tracking-[0.25em] text-[hsl(var(--cream))]/60 mb-4">Get in touch</div>
+            <h3 className="font-serif text-3xl md:text-4xl leading-tight mb-6">
+              Send us a note and we'll be in touch within one business day.
+            </h3>
+            <p className="text-[hsl(var(--cream))]/70 leading-relaxed mb-10">
+              Share a little about your business, the system you're considering, or the challenge
+              you're trying to solve — and we'll take it from there.
+            </p>
+            <a
+              href="mailto:info@aladvisory.co.za?subject=Enquiry%20%E2%80%94%20AL%20Advisory"
+              className="inline-flex items-center justify-center gap-2 bg-gradient-gold text-[hsl(var(--ink))] py-4 px-8 rounded-sm text-sm uppercase tracking-[0.25em] font-medium hover:opacity-90 transition self-start"
             >
-              Request a conversation
-            </button>
-          </form>
+              Email us
+            </a>
+          </div>
         </div>
       </div>
     </section>

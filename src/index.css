@@ -31,8 +31,8 @@
     /* Nude palette tokens */
     --gold: 22 38% 55%;          /* warm tan accent */
     --gold-soft: 28 45% 78%;     /* soft blush nude */
-    --ink: 25 22% 26%;            /* deep mocha (replaces navy) */
-    --ink-deep: 25 25% 18%;       /* darkest espresso-nude */
+    --ink: 25 18% 38%;            /* lighter mocha */
+    --ink-deep: 25 20% 30%;       /* lighter espresso-nude */
     --cream: 36 32% 97%;          /* warm white */
     --sand: 30 28% 88%;           /* light sand */
     --blush: 22 40% 85%;          /* soft blush */

@@ -23,7 +23,7 @@ import path from "path";
 import fs from "fs";
 
 export default defineConfig({
-  base: '/consulting-agile-vista/',
+  base: "/",
   server: {
     host: "::",
     port: 8080,

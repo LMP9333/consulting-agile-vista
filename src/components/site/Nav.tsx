@@ -7,19 +7,12 @@ const Nav = () => {
           <span className="text-[hsl(var(--gold))] text-2xl font-serif leading-none">·</span>
           <span className="font-sans text-xs uppercase tracking-[0.25em] text-[hsl(var(--ink))]/70">Advisory</span>
         </a>
-        {/* <nav className="hidden md:flex items-center gap-10 text-sm text-[hsl(var(--ink))]/80">
+        <nav className="hidden md:flex items-center gap-10 text-sm text-[hsl(var(--ink))]/80">
           <a href="#approach" className="hover:text-[hsl(var(--gold))] transition-colors">Approach</a>
           <a href="#services" className="hover:text-[hsl(var(--gold))] transition-colors">Services</a>
           <a href="#industries" className="hover:text-[hsl(var(--gold))] transition-colors">Industries</a>
           <a href="#contact" className="hover:text-[hsl(var(--gold))] transition-colors">Contact</a>
-        </nav> */}
-        // Open src/components/site/Nav.tsx and change your navigation links to this structure:
-<nav className="hidden md:flex items-center gap-10 text-sm text-[hsl(var(--ink))]/80">
-  <a href="/#/consulting-agile-vista/#approach" className="hover:text-[hsl(var(--gold))] transition-colors">Approach</a>
-  <a href="/#/consulting-agile-vista/#services" className="hover:text-[hsl(var(--gold))] transition-colors">Services</a>
-  <a href="/#/consulting-agile-vista/#industries" className="hover:text-[hsl(var(--gold))] transition-colors">Industries</a>
-  <a href="/#/consulting-agile-vista/#contact" className="hover:text-[hsl(var(--gold))] transition-colors">Contact</a>
-</nav>
+        </nav>
         <a
           href="#contact"
           className="hidden md:inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[hsl(var(--cream))] bg-gradient-gold px-5 py-3 rounded-sm hover:opacity-90 transition-opacity"

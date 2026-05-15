@@ -1,3 +1,13 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { Toaster } from "@/components/ui/toaster";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import Index from "./pages/Index.tsx";
+import NotFound from "./pages/NotFound.tsx";
+
+const queryClient = new QueryClient();
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -5,10 +15,8 @@ const App = () => (
       <Sonner />
       <HashRouter>
         <Routes>
-          {/* Map your primary home layout */}
+          {/* Map primary route and link fallback paths */}
           <Route path="/" element={<Index />} />
-          
-          {/* Map all nested paths to Index so clicking navigation doesn't trigger 404 */}
           <Route path="/approach" element={<Index />} />
           <Route path="/services" element={<Index />} />
           <Route path="/industries" element={<Index />} />
@@ -22,6 +30,8 @@ const App = () => (
   </QueryClientProvider>
 );
 
+// This explicit line must be included to resolve your build crash:
+export default App;
 
 
 // import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
